@@ -1,0 +1,81 @@
+.todoElement {
+    align-items: center;
+    font-size: 2vw;
+    line-height: 4vw;
+}
+
+.todoElement li:last-child {
+    border-bottom: .14vw solid #1c1c1cb7;
+}
+
+.todoElement li {
+    display: flex;
+    width: 100%;
+
+}
+
+.todoElement li:hover {
+    background-image: linear-gradient(60deg, #ef7a68 0%, #f6e427 100%);
+}
+
+
+.todoElement li i{
+color: #f0eded;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.todoElement li i:nth-child(1) {
+    flex: .5;
+ 
+    border-right: .15vw solid #1c1c1cb7;
+}
+
+.todoElement li i:nth-child(2) {
+    flex: .5;
+    border-right: .15vw solid #1c1c1cb7;
+
+}
+
+.todoElement li i:nth-child(3) {
+    flex: 5;
+
+
+}
+
+.todoElement li i:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    padding-right: .5vw;
+}
+
+.todoElement li i:nth-child(4) button {
+    width: 3.5vw;
+    font-size: 1vw;
+    overflow: hidden;
+    height: 3.5vw;
+    border-radius: 100%;
+    border: .16vw solid #9f9f9f;
+}
+.todoElement li i:nth-child(4) button:hover{
+    border: .16vw solid #383838;
+
+    background-color: #dfdddd;
+}
+
+.ListTitle {
+    padding: 1vw;
+    font-size: 2.2vw;
+    font-weight: 700;
+    background-image: linear-gradient(-225deg, #f35caa 0%, #e57575 52%, #bd4fa4f0 100%);   
+  border-bottom: .14vw solid #00000071;
+    color: rgba(243, 243, 243, 0.914);
+}
+.ListTitle:hover{
+    background-image: linear-gradient(-225deg, #d83b8c 0%, #ff4d4d 52%, #bd4fa4f0 100%);   
+
+}
+.checkBox{
+    height: 1.7vw;
+    width:  1.7vw;
+}
