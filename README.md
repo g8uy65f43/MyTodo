@@ -4,7 +4,8 @@
 #
 ２．MongoDBを起動
 #
-３．MyTodoファイルでnpm start
+３．  $ npm install react-router-dom --save
+      $ MyTodoファイルでnpm start
 #
 ４．MyTodoListserverでnodemon todoList.js
 
